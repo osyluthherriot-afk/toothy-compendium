@@ -1,0 +1,44 @@
+{
+	"manifest_version": 2,
+	"default_locale": "en",
+	"name": "Toothy's Compendium",
+	"short_name": "Toothy's",
+	"description": "A focused 5.5e rules reference.",
+	"icons": [
+		{
+			"src": "android-chrome-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "android-chrome-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "Classes",
+			"url": "/classes.html"
+		},
+		{
+			"name": "Spells",
+			"url": "/spells.html"
+		},
+		{
+			"name": "Feats",
+			"url": "/feats.html"
+		},
+		{
+			"name": "Species",
+			"url": "/races.html"
+		}
+	],
+	"start_url": "index.html",
+	"background_color": "#0c0a09",
+	"display": "standalone",
+	"theme_color": "#0c0a09",
+	"permissions": [
+		"clipboardWrite"
+	]
+}

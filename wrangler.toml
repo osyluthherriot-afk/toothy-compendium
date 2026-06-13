@@ -1,0 +1,3 @@
+name = "toothys-compendium"
+pages_build_output_dir = "dist-cloudflare"
+compatibility_date = "2026-06-13"

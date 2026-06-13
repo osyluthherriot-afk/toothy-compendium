@@ -1,0 +1,12 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                              xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Search Toothy's Compendium</ShortName>
+	<Description>Toothy's Compendium: A focused 5.5e rules reference.</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image width="64" height="64" type="image/png">/favicon-64x64.png</Image>
+	<Url type="text/html" template="/search.html?{searchTerms}"/>
+	<Url type="application/x-suggestions+json" method="GET" template="http://suggestqueries.google.com/complete/search?output=firefox&amp;q={searchTerms}"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="/open-search.xml"/>
+	<moz:SearchForm>/search.html</moz:SearchForm>
+	<SearchForm>/search.html</SearchForm>
+</OpenSearchDescription>

@@ -40,7 +40,7 @@
 		"build:sw": "node node/build-sw.mjs",
 		"build:sw:prod": "node node/build-sw.mjs prod",
 		"build:cloudflare": "npm run build:sw:prod && node node/build-cloudflare-pages.mjs",
-		"deploy:cloudflare": "npm run build:cloudflare && npx wrangler pages deploy dist-cloudflare",
+		"deploy:cloudflare": "npm run build:cloudflare && npx wrangler deploy",
 		"build": "npm run clean-jsons && npm run gen && npm run build:css && npm run build:sw:prod",
 		"preversion": "npm test",
 		"version": "node node/version-bump.js",
